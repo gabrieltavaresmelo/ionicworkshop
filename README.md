@@ -1,7 +1,11 @@
 ionicworkshop
 ======
 
-# Telas do Aplicativo
+Aplicativo para listagem de cursos desenvolvido com Ionic 2.
+
+* Autor: Gabriel Tavares
+* Curso: Introdução ao Ionic 2
+
 
 ## Menu Esquerdo
 ![ScreenShot](https://github.com/gabrieltavaresmelo/ionicworkshop/raw/master/mockups/ionicworkshop01.png)
