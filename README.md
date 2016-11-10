@@ -1,6 +1,8 @@
 ionicworkshop
 ======
 
+# Telas do Aplicativo
+
 ## Menu Esquerdo
 ![ScreenShot](https://github.com/gabrieltavaresmelo/ionicworkshop/raw/master/mockups/ionicworkshop01.png)
 
@@ -9,3 +11,8 @@ ionicworkshop
 
 ## Informações do Curso
 ![ScreenShot](https://github.com/gabrieltavaresmelo/ionicworkshop/raw/master/mockups/ionicworkshop03.png)
+
+
+# Referências
+* [Aprenda Angular 2] (http://aprendaangular2.online)
+* [Guia do Desenvolvedor Ionic] (https://github.com/gabrieltavaresmelo/guia-do-desenvolvedor)
