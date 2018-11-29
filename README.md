@@ -8,13 +8,13 @@ Aplicativo para listagem de cursos desenvolvido com Ionic.
 
 
 ## Menu Esquerdo
-![ScreenShot](https://github.com/gabrieltavaresmelo/ionicworkshop/raw/master/mockups/ionicworkshop01.png)
+![ScreenShot](https://github.com/gabrieltavaresmelo/ionicworkshop/raw/master/mockups/ionicworkshop1.png)
 
 ## Listagem de Cursos
-![ScreenShot](https://github.com/gabrieltavaresmelo/ionicworkshop/raw/master/mockups/ionicworkshop02.png)
+![ScreenShot](https://github.com/gabrieltavaresmelo/ionicworkshop/raw/master/mockups/ionicworkshop2.png)
 
 ## Informações do Curso
-![ScreenShot](https://github.com/gabrieltavaresmelo/ionicworkshop/raw/master/mockups/ionicworkshop03.png)
+![ScreenShot](https://github.com/gabrieltavaresmelo/ionicworkshop/raw/master/mockups/ionicworkshop3.png)
 
 
 # Referências
