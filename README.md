@@ -1,10 +1,10 @@
 ionicworkshop
 ======
 
-Aplicativo para listagem de cursos desenvolvido com Ionic 2.
+Aplicativo para listagem de cursos desenvolvido com Ionic.
 
 * Autor: Gabriel Tavares
-* Curso: Introdução ao Ionic 2
+* Assunto: Introdução ao Ionic
 
 
 ## Menu Esquerdo
