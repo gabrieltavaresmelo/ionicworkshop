@@ -32,6 +32,7 @@ export class HomePage {
   initializeItems() {
     this.subscribeCursos = this.cursoService.getCursos().subscribe(data => {
       this.cursosArr = data;
+      console.log('cursos', data);
 
       let now = new Date().getTime();
       
