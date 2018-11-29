@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
-import { ModalController, Platform, NavParams, ViewController } from 'ionic-angular';
+import { IonicPage, Platform, NavParams, ViewController } from 'ionic-angular';
 
+@IonicPage()
 @Component({
-  selector: 'page-cursodetails',
-  templateUrl: 'cursodetails.html'
+  selector: 'page-curso-detalhes',
+  templateUrl: 'curso-detalhes.html',
 })
-export class Cursodetails {
+export class CursoDetalhesPage {
 
   curso: any;
 
@@ -18,7 +19,6 @@ export class Cursodetails {
   }
 
   ionViewDidLoad() {
-    console.log('Hello Cursodetails Page');
   }
 
   dismiss() {

@@ -1,0 +1,94 @@
+{
+  "curso" : {
+    "C1" : {
+      "carga_horaria" : 3,
+      "conteudo" : [ "Introdução ao Maven", "Modelo de Arquitetura", "Utilização Prática" ],
+      "dt_realizacao" : "06/06/2019",
+      "id" : 1,
+      "img_icon" : "assets/imgs/avatar-maven.png",
+      "nome" : "Maven Archetype",
+      "professor" : "Yuri"
+    },
+    "C10" : {
+      "carga_horaria" : 3,
+      "conteudo" : [ "Introdução", "Metodologia", "Implementação" ],
+      "dt_realizacao" : "01/03/2017",
+      "id" : 10,
+      "img_icon" : "assets/imgs/avatar-report.png",
+      "nome" : "Criação de Relatórios",
+      "professor" : "Marcos"
+    },
+    "C2" : {
+      "carga_horaria" : 3,
+      "conteudo" : [ "Introdução", "Metodologia", "Implementação" ],
+      "dt_realizacao" : "08/09/2019",
+      "id" : 2,
+      "img_icon" : "assets/imgs/avatar-test.png",
+      "nome" : "Testes Automatizados e Metodologias Ágeis",
+      "professor" : "Elias"
+    },
+    "C3" : {
+      "carga_horaria" : 3,
+      "conteudo" : [ "Introdução", "Metodologia", "Aplicabilidade" ],
+      "dt_realizacao" : "23/08/2019",
+      "id" : 3,
+      "img_icon" : "assets/imgs/avatar-redmine.png",
+      "nome" : "Redmine",
+      "professor" : "Yuri e André"
+    },
+    "C4" : {
+      "carga_horaria" : 3,
+      "conteudo" : [ "Introdução", "Metodologia", "Implementação" ],
+      "dt_realizacao" : "07/10/2016",
+      "id" : 4,
+      "img_icon" : "assets/imgs/avatar-git.png",
+      "nome" : "Git - Controle de Versão",
+      "professor" : "Sérgio"
+    },
+    "C5" : {
+      "carga_horaria" : 3,
+      "conteudo" : [ "Introdução", "Metodologia", "Implementação" ],
+      "dt_realizacao" : "07/10/2016",
+      "id" : 5,
+      "img_icon" : "assets/imgs/avatar-jenkins.png",
+      "nome" : "Jenkins",
+      "professor" : "Yuri e André"
+    },
+    "C6" : {
+      "carga_horaria" : 3,
+      "conteudo" : [ "Introdução", "Metodologia", "Implementação" ],
+      "dt_realizacao" : "03/11/2016",
+      "id" : 6,
+      "img_icon" : "assets/imgs/avatar-ionic.png",
+      "nome" : "Desenvolvimento de Aplicativos",
+      "professor" : "Gabriel"
+    },
+    "C7" : {
+      "carga_horaria" : 3,
+      "conteudo" : [ "Introdução", "Metodologia", "Implementação" ],
+      "dt_realizacao" : "01/12/2016",
+      "id" : 7,
+      "img_icon" : "assets/imgs/avatar-mongodb.png",
+      "nome" : "MongoDB",
+      "professor" : "Emanuel"
+    },
+    "C8" : {
+      "carga_horaria" : 3,
+      "conteudo" : [ "Introdução", "Metodologia", "Implementação" ],
+      "dt_realizacao" : "01/01/2017",
+      "id" : 8,
+      "img_icon" : "assets/imgs/avatar-arduino.png",
+      "nome" : "Arduino",
+      "professor" : "Helano"
+    },
+    "C9" : {
+      "carga_horaria" : 3,
+      "conteudo" : [ "Introdução", "Metodologia", "Implementação" ],
+      "dt_realizacao" : "01/02/2017",
+      "id" : 9,
+      "img_icon" : "assets/imgs/avatar-primefaces.png",
+      "nome" : "Templates Customizados no JSF",
+      "professor" : "Ikaro"
+    }
+  }
+}

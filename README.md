@@ -1,20 +1,20 @@
 ionicworkshop
 ======
 
-Aplicativo para listagem de cursos desenvolvido com Ionic 2.
+Aplicativo para listagem de cursos desenvolvido com Ionic.
 
 * Autor: Gabriel Tavares
-* Curso: Introdução ao Ionic 2
+* Assunto: Introdução ao Ionic
 
 
 ## Menu Esquerdo
-![ScreenShot](https://github.com/gabrieltavaresmelo/ionicworkshop/raw/master/mockups/ionicworkshop01.png)
+![ScreenShot](https://github.com/gabrieltavaresmelo/ionicworkshop/blob/develop/mockups/ionicworkshop1.png)
 
 ## Listagem de Cursos
-![ScreenShot](https://github.com/gabrieltavaresmelo/ionicworkshop/raw/master/mockups/ionicworkshop02.png)
+![ScreenShot](https://github.com/gabrieltavaresmelo/ionicworkshop/blob/develop/mockups/ionicworkshop2.png)
 
 ## Informações do Curso
-![ScreenShot](https://github.com/gabrieltavaresmelo/ionicworkshop/raw/master/mockups/ionicworkshop03.png)
+![ScreenShot](https://github.com/gabrieltavaresmelo/ionicworkshop/blob/develop/mockups/ionicworkshop3.png)
 
 
 # Referências

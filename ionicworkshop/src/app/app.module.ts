@@ -1,28 +1,46 @@
-import { NgModule } from '@angular/core';
-import { IonicApp, IonicModule } from 'ionic-angular';
+import { environment } from './../environments/environments';
+import { BrowserModule } from '@angular/platform-browser';
+import { ErrorHandler, NgModule } from '@angular/core';
+import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
+
 import { MyApp } from './app.component';
-import { Page1 } from '../pages/page1/page1';
-import { Page2 } from '../pages/page2/page2';
-import { Cursodetails } from '../pages/cursodetails/cursodetails';
-import { CursoService } from '../providers/curso-service';
+import { HomePage } from '../pages/home/home';
+import { ListPage } from '../pages/list/list';
+
+import { StatusBar } from '@ionic-native/status-bar';
+import { SplashScreen } from '@ionic-native/splash-screen';
+import { CursoProvider } from '../providers/curso/curso';
+
+import {HttpClientModule} from "@angular/common/http";
+import {AngularFireModule} from "angularfire2";
+import {AngularFireDatabaseModule} from "angularfire2/database";
+import {AngularFireAuthModule} from "angularfire2/auth";
 
 @NgModule({
   declarations: [
     MyApp,
-    Page1,
-    Page2,
-    Cursodetails
+    HomePage,
+    ListPage
   ],
   imports: [
-    IonicModule.forRoot(MyApp)
+    BrowserModule,
+    HttpClientModule,
+    IonicModule.forRoot(MyApp),
+    AngularFireModule.initializeApp(environment.prod),
+    AngularFireDatabaseModule,
+    AngularFireAuthModule,
   ],
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    Page1,
-    Page2,
-    Cursodetails
+    HomePage,
+    ListPage
   ],
-  providers: [CursoService]
+  providers: [
+    StatusBar,
+    SplashScreen,
+    {provide: ErrorHandler, useClass: IonicErrorHandler},
+    CursoProvider
+  ]
 })
 export class AppModule {}
