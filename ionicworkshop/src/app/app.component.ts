@@ -1,10 +1,11 @@
+import { SobrePage } from './../pages/sobre/sobre';
 import { Component, ViewChild } from '@angular/core';
 import { Nav, Platform } from 'ionic-angular';
-import { StatusBar, Splashscreen } from 'ionic-native';
+import { StatusBar } from '@ionic-native/status-bar';
+import { SplashScreen } from '@ionic-native/splash-screen';
 
-import { Page1 } from '../pages/page1/page1';
-import { Page2 } from '../pages/page2/page2';
-
+import { HomePage } from '../pages/home/home';
+import { ListPage } from '../pages/list/list';
 
 @Component({
   templateUrl: 'app.html'
@@ -12,17 +13,17 @@ import { Page2 } from '../pages/page2/page2';
 export class MyApp {
   @ViewChild(Nav) nav: Nav;
 
-  rootPage: any = Page1;
+  rootPage: any = HomePage;
 
   pages: Array<{icon: string, title: string, component: any}>;
 
-  constructor(public platform: Platform) {
+  constructor(public platform: Platform, public statusBar: StatusBar, public splashScreen: SplashScreen) {
     this.initializeApp();
 
     // used for an example of ngFor and navigation
     this.pages = [
-      { icon: 'list-box', title: 'CURSOS', component: Page1 },
-      { icon: 'information-circle', title: 'APRESENTAÇÃO', component: Page2 }
+      { icon: 'list-box', title: 'CURSOS', component: HomePage },
+      { icon: 'information-circle', title: 'APRESENTAÇÃO', component: 'SobrePage' }
     ];
 
   }
@@ -31,8 +32,8 @@ export class MyApp {
     this.platform.ready().then(() => {
       // Okay, so the platform is ready and our plugins are available.
       // Here you can do any higher level native things you might need.
-      StatusBar.styleDefault();
-      Splashscreen.hide();
+      this.statusBar.styleDefault();
+      this.splashScreen.hide();
     });
   }
 
