@@ -11,10 +11,10 @@ Aplicativo para listagem de cursos desenvolvido com Ionic.
 ![ScreenShot](https://github.com/gabrieltavaresmelo/ionicworkshop/blob/develop/mockups/ionicworkshop1.png)
 
 ## Listagem de Cursos
-![ScreenShot](https://github.com/gabrieltavaresmelo/ionicworkshop/blob/master/mockups/ionicworkshop2.png)
+![ScreenShot](https://github.com/gabrieltavaresmelo/ionicworkshop/blob/develop/mockups/ionicworkshop2.png)
 
 ## Informações do Curso
-![ScreenShot](https://github.com/gabrieltavaresmelo/ionicworkshop/blob/master/mockups/ionicworkshop3.png)
+![ScreenShot](https://github.com/gabrieltavaresmelo/ionicworkshop/blob/develop/mockups/ionicworkshop3.png)
 
 
 # Referências
